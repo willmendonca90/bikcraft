@@ -1,155 +1,16 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+/* global */
+@import "./global/global.css";
+@import "./features/color.css";
+@import "./features/typo.css";
 
-h1,
-h2,
-h3 {
-  margin: 0;
-  padding: 0;
-}
+/* home */
+@import "./home/header.css";
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
 
-ul {
-  list-style: none;
-}
+/* features */
+@import "./features/features.css";
 
-a,
-p {
-  display: block;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-.header-bg {
-  background: #000;
-}
-
-.header {
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 20px;
-  padding: 36px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-menu {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 40px;
-}
-
-.header-menu a {
-  font-size: 1.125rem;
-  color: #fff;
-  padding: 1rem 0;
-  position: relative;
-}
-.header-menu a:after {
-  content: "";
-  display: block;
-  position: absolute;
-  height: 2px;
-  width: 0;
-  background: #fff;
-  transition: 0.3s;
-}
-.header-menu a:hover:after {
-  width: 100%;
-}
-
-@media (max-width: 800px) {
-  .header-menu {
-    gap: 20px;
-  }
-  .header-menu a {
-    background: #111;
-    padding: 12px 16px;
-    border-radius: 4px;
-    font-size: 1rem;
-  }
-  .header-menu a:after {
-    display: none;
-  }
-  .header-menu a:hover {
-    background: #2e2e2e;
-  }
-}
-@media (max-width: 600px) {
-  .header-menu {
-    gap: 12px;
-  }
-  .header-menu a {
-    padding: 8px 12px;
-    font-size: 0.875rem;
-  }
-}
-
-.introducao-bg {
-  background: #000;
-  /* foi colocar o box shadow com o tamanho definido no Figma. Ficará na cor branca, na parte de baixo do container */
-  box-shadow: inset 0 -120px #fff;
-}
-
-.introducao {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0 84px;
-}
-
-.introducao-conteudo {
-  align-self: flex-end;
-  /* a margem inicial era de 120px. Foi aumentada pra 240px pois coloquei uma box shadow no fundo do elemento para passar a sensação da imagem estar vazando do container */
-  margin-bottom: 240px;
-}
-
-.introducao-conteudo h1 {
-  font-size: 4rem;
-  line-height: 1.12;
-  color: #fff;
-  margin-bottom: 32px;
-}
-
-.introducao-conteudo span {
-  color: #ffd500;
-}
-
-.introducao-conteudo p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: #ababab;
-  margin-bottom: 20px;
-}
-
-.introducao-conteudo a {
-  display: inline-block;
-  padding: 16px 32px;
-  font-size: 1.125rem;
-  line-height: 1.33;
-  color: #9e4f00;
-  background: linear-gradient(#f2d855, #ffd500);
-  border-radius: 4px;
-  text-transform: uppercase;
-}
-.introducao-conteudo a:hover {
-  background: linear-gradient(#f2c655, #dfa100);
-}
-
-.introducao img {
-  border-radius: 4px;
-}
+/* bikes */
+@import "./bikes/bikes.css";
