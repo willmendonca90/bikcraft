@@ -11,8 +11,10 @@ h3 {
   padding: 0;
 }
 
-ul {
+ul,
+li {
   list-style: none;
+  text-decoration: none;
 }
 
 a,
