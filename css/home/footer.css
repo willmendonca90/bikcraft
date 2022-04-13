@@ -53,3 +53,15 @@
   grid-column: 1/-1;
   margin-top: 60px;
 }
+
+@media (max-width: 500px) {
+  .footer-img img {
+    display: none;
+  }
+  .footer.container {
+    grid-template-columns: 1fr;
+  }
+  .footer-info {
+    margin-top: 20px;
+  }
+}
