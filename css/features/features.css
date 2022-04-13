@@ -32,6 +32,15 @@
   background: linear-gradient(#f2c655, #dfa100);
 }
 
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../img/icons/seta.svg);
+}
+
 .botao.secundario {
   display: inline-block;
   padding: 16px 32px;
