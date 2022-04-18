@@ -27,6 +27,8 @@
   border-radius: 4px;
   text-transform: uppercase;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .botao:hover {
   background: linear-gradient(#f2c655, #dfa100);
