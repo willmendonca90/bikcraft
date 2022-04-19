@@ -28,6 +28,7 @@ p {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 /* o código abaixo seleciona os arquivos que contém SOURCE e terminam com .jpg */
