@@ -1,5 +1,6 @@
 .depoimento {
-  background: var(--color-primary-1);
+  background: var(--color-primary-1) url(../../img/dec/bottom-right-p.svg)
+    no-repeat bottom 40px right 40px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }

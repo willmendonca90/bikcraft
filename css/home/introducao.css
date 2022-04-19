@@ -1,5 +1,6 @@
 .introducao-bg {
-  background: var(--color-12);
+  background: var(--color-12) url(../../img/dec/bottom-left.svg) no-repeat
+    bottom 160px left 40px;
   /* foi colocar o box shadow com o tamanho definido no Figma. Ficará na cor branca, na parte de baixo do container */
   box-shadow: inset 0 -120px var(--color-white);
 }
